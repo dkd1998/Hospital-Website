@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/datepicker.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="assets/images/logo.png" width="40" height="40" class="d-inline-block align-top" alt=""
+      style=" margin-right: 20px">
+    <a class="navbar-brand" href="Index.html">Medical Hospital</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Book.html">Book an Appointment <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Doctor.html">Find a Doctor <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="About.html">About Us <span class="sr-only">(current)</span></a>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+      <div class="contact-info">
+        <ul style="list-style-type: none;">
+          <li>Contact: +12-345-678-90 </li>
+          <li>E-Mail: medical@hospital.com </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="inner-layer">
+    <div class="container">
+      <div class="row no-margin">
+        <div class="col-sm-7">
+          <div class="content">
+            <h1>Meet The World’s Best Doctors From Anywhere In The World</h1>
+            <h2>For Help Call : +123-456-7890</h2>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div class="form-data">
+            <div class="form-head">
+              <h2>Book Appointemnt</h2>
+            </div>
+            <div class="form-body">
+              <div class="row form-row">
+                <input type="text" placeholder="Enter Full name" class="form-control">
+              </div>
+              <div class="row form-row">
+                <input type="text" placeholder="Enter Mobile Number" class="form-control">
+              </div>
+              <div class="row form-row">
+                <input type="text" placeholder="Enter Email Adreess" class="form-control">
+              </div>
+              <div class="row form-row">
+                <input id="dat" type="text" placeholder="Appointment Date" class="form-control">
+              </div>
+              <h6>Address Details</h6>
+              <div class="row form-row">
+                <input id="dat" type="text" placeholder="Address Details" class="form-control">
+              </div>
+              <div class="row form-row">
+                <button class="btn btn-primary btn-appointment">
+                  Book Appointment
+                </button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $("#dat").datepicker();
+  })
+</script>
+
+</body>
+
+</html>
